@@ -19,7 +19,7 @@ nav ul {
 }
 
 .wrapper {
-  background-color: #eee8d5
+  background-color: #eee8d5;
 }
 
 #contents {
@@ -48,6 +48,10 @@ div > .dfn + strong {
 
 a:not(.no-highlight) {
   background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
 }
 
 ol li:first-child {
