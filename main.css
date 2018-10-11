@@ -45,3 +45,27 @@ div > .dfn {
 div > .dfn + strong {
   color: #fff;
 }
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(2) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3) {
+  background-color: #d04b16;
+}
